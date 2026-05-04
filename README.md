@@ -17,13 +17,14 @@
 ## 🎬 Demo
 
 <div align="center">
-  <video src="https://github.com/Anikalfa/bookwise/blob/main/demo/demo.mp4?raw=true" width="100%" controls>
-    Your browser does not support the video tag.
-  </video>
-  <p><a href="https://github.com/Anikalfa/bookwise/blob/main/demo/demo.mp4">Click here to view the video file directly</a></p>
+  <a href="https://youtu.be/OYNDgwJvRXI">
+    <img src="https://img.youtube.com/vi/OYNDgwJvRXI/maxresdefault.jpg" alt="BookWise Demo Video" width="100%">
+  </a>
 </div>
 
-> *Live walkthrough of BookWise — personalized recommendations, user profiling, and real-time AI inference.*
+> *Click the image above to watch the full walkthrough of BookWise on YouTube!*
+
+
 
 ---
 
