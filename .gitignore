@@ -1,0 +1,71 @@
+# ─── Dependencies ──────────────────────────────────────────────────────────────
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# ─── Environment & Secrets ─────────────────────────────────────────────────────
+.env
+.env.local
+.env.*.local
+*.env
+
+# ─── Large Data & Model Files ──────────────────────────────────────────────────
+# These are too large for GitHub (use Git LFS or external storage)
+backend/book.json
+backend/author.json
+backend/book_metadata_map.json
+backend/category.json
+backend/publisher.json
+backend/bookwise.db
+backend/lightgcn_model.pkl
+backend_node/src/scripts/model.pkl
+
+# ─── Build Outputs ─────────────────────────────────────────────────────────────
+frontend_react/dist/
+frontend_react/build/
+frontend/dist/
+frontend/build/
+
+# ─── Logs ──────────────────────────────────────────────────────────────────────
+*.log
+error.log
+npm-debug.log*
+
+# ─── Temporary / Dev Scripts ───────────────────────────────────────────────────
+inspect_ids.py
+inspect_ids2.py
+inspect_pkl.py
+inspect_pkl_v2.py
+test_model_output.py
+test_proxy_logic.py
+ids_info.txt
+pkl_info.txt
+backend/test_boosting.py
+backend/test_mixed.py
+backend/test_sparse.py
+backend_node/analyze_collection.js
+backend_node/check_user.js
+backend_node/inspect_history.js
+backend_node/map_cats.js
+backend_node/quick_cat.js
+backend_node/test_sorts.js
+backend_node/test_model.py
+
+# ─── OS & Editor ───────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# ─── Python Cache ──────────────────────────────────────────────────────────────
+backend/__pycache__/
+model_training/__pycache__/
+
+# ─── Frontend Build Artifacts ──────────────────────────────────────────────────
+frontend_react/build_error.txt
+database_diagram.md.resolved
